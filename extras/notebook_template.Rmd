@@ -1,0 +1,30 @@
+---
+title: "Notebook Title"
+author: "Name"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Key Objectives
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+```{r setup, include=FALSE}
+# This chunk sets up the environment and installs any required libraries
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+
+# Clear the R environment
+rm(list = ls())
+
+# Set a seed for reproducibility
+set.seed(123)
+
+# Load required libraries
+library(tidyverse)
+```
+
+
+```{r load-data}
+# Load your data here
+```
