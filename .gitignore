@@ -4,3 +4,6 @@
 .Ruserdata
 .DS_Store
 /notebooks/**/*.html
+/notebooks/**/*.pdf
+/notebooks/**/*.docx
+/notebooks/**/*.tex
